@@ -94,9 +94,11 @@ Plug 'yegappan/taglist' "taglist
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
+Plug 'ayu-theme/ayu-vim'  "light, mirage, dark
 Plug 'flazz/vim-colorschemes' "All colorschemes
 "Tomorrow-Night
 
 call plug#end()
+set termguicolors  "enable true colors support
 colorscheme gruvbox
 let g:rainbow_active = 1
