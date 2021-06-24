@@ -34,7 +34,7 @@ set number "Show line numbers on the sidebar
 set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
 set title "set the window's title, reflecting the file currently being edited
-set background=dark "Vim will try to use colors that suit a dark background
+
 
 "Code Folding Options
 "set foldmethod=indent "Fold based on indentation levels
@@ -95,10 +95,13 @@ Plug 'dracula/vim',{'as':'dracula'}
 Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
 Plug 'ayu-theme/ayu-vim'  "light, mirage, dark
-Plug 'flazz/vim-colorschemes' "All colorschemes
+Plug 'lifepillar/vim-solarized8'  "set backgroun=light/dark
 "Tomorrow-Night
-
 call plug#end()
-set termguicolors  "enable true colors support
+
+"appearances
 colorscheme gruvbox
+set background=dark "Vim will try to use colors that suit a dark background
+set termguicolors  "enable true colors support
+let ayucolor="mirage"
 let g:rainbow_active = 1
