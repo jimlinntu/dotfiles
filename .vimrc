@@ -91,6 +91,7 @@ Plug 'jiangmiao/auto-pairs' "auto add, delete bracket pairs
 Plug 'tpope/vim-surround' "vim surround
 Plug 'yegappan/taglist' "taglist
 "colorschemes
+Plug 'flazz/vim-colorschemes'  "All colorschemes
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
