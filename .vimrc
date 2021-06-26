@@ -101,7 +101,7 @@ Plug 'lifepillar/vim-solarized8'  "set backgroun=light/dark
 call plug#end()
 
 "appearances
-set guifont=RobotoMono:h11
+set guifont=Roboto_Mono_Medium:h11  "when using gVim, terminal VIM uses whatever font the terminal uses
 colorscheme gruvbox
 set background=dark "Vim will try to use colors that suit a dark background
 set termguicolors  "enable true colors support
