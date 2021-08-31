@@ -58,9 +58,11 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 
-"set cursor to straigh line in insert mode
+"set cursor to straight line in insert mode
 
-" good for MobaXterm, but has to change cursor to straight line by default
+" good for MobaXterm, but has to change cursor to straight line by default in settings
+" to make cursor block by default:
+" add: ' echo -en "\e[=2c" ' into .bashrc and .bash_profile
 
 "if exists('$TMUX')
 "    let &t_SI .= "\ePtmux;\e\e[=1c\e\\"
@@ -69,6 +71,7 @@ vnoremap K :m '<-2<CR>gv=gv
 "    let &t_SI .= "\e[=1c"
 "    let &t_EI .= "\e[=2c"
 " endif
+
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
