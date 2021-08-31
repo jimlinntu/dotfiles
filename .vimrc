@@ -61,8 +61,14 @@ vnoremap K :m '<-2<CR>gv=gv
 "set cursor to straigh line in insert mode
 
 " good for MobaXterm, but has to change cursor to straight line by default
-"let &t_SI .= "\e[=1c"
-"let &t_EI .= "\e[=2c"
+
+"if exists('$TMUX')
+"    let &t_SI .= "\ePtmux;\e\e[=1c\e\\"
+"    let &t_EI .= "\ePtmux;\e\e[=2c\e\\"
+"else
+"    let &t_SI .= "\e[=1c"
+"    let &t_EI .= "\e[=2c"
+" endif
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
