@@ -95,6 +95,10 @@ endif
 " PLUGINS
 " Vim-Plug settings (':PlugInstall' to install)
 call plug#begin('~/.vim/plugged')
+
+"Syntastic, error highlighting plugin
+"https://github.com/vim-syntastic/syntastic#installation
+
 Plug 'preservim/nerdtree'
 Plug 'frazrepo/vim-rainbow' "color paired brackets
 Plug 'preservim/nerdcommenter' "quick commenter ('\cc' to comment out,'\cu' to uncomment,'\cA' to add appending comment)
