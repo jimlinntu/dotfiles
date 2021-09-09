@@ -7,6 +7,9 @@ set smarttab "Insert "tabstop" number of spaces when the "tab" key is pressed
 set softtabstop=4 "Indent using 4 spaces
 set tabstop=4 "Tab size is equal to 4 spaces
 
+"Editing Options
+set formatoptions-=cro "Disable autocommenting on newline
+
 "Search Options
 set hlsearch "Enable search highlighting
 set ignorecase "Ignore case when searching
@@ -28,8 +31,6 @@ set wrap "Enable line wrapping (display on newline when line is full to prevent 
 set laststatus=2 "Always display the status bar
 set ruler "Always show cursor position in status bar
 set wildmenu "Display command line's tab complete options as a menu
-
-
 set number "Show line numbers on the sidebar
 set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
