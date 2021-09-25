@@ -8,7 +8,7 @@ set softtabstop=4 "Indent using 4 spaces
 set tabstop=4 "Tab size is equal to 4 spaces
 
 "Editing Options
-set formatoptions-=cro "Disable autocommenting on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o  "Disable autocommenting on newline
 
 "Search Options
 set hlsearch "Enable search highlighting
