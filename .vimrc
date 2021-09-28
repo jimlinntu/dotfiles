@@ -54,8 +54,8 @@ set nocompatible "Enable enhancements and improvements of Vi
 
 
 "KEY MAPPINGS
-"remap esc, enter normal mode by typing two j
-imap jj <Esc> 
+"remap esc, enter normal mode by typing two j (remember to remove trailing whitespace for following, else jumps)
+imap jj <Esc>
 "press 'J'/'K' in visual mode to move selected text down/up with autoformatting
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
