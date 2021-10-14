@@ -15,6 +15,7 @@ set hlsearch "Enable search highlighting
 set ignorecase "Ignore case when searching
 set incsearch "Incremental search that shows partial matches
 set smartcase "Automatically switch search to case-sensitive when search query contains an uppercase letter
+set shortmess-=S "show search match counts
 
 "Performance Options
 set complete-=i "Limit the files searched for auto-completes
@@ -109,6 +110,7 @@ Plug 'itchyny/lightline.vim' "lightline (status bar)
 Plug 'jiangmiao/auto-pairs' "auto add, delete bracket pairs
 Plug 'tpope/vim-surround' "vim surround
 Plug 'yegappan/taglist' "taglist
+Plug 'google/vim-searchindex' "show search counts greater than 99
 "colorschemes
 Plug 'flazz/vim-colorschemes'  "All colorschemes
 Plug 'dracula/vim',{'as':'dracula'}
