@@ -97,6 +97,10 @@ endif
 
 
 " PLUGINS
+" TO INSTALL VIM-PLUG:
+"curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 " Vim-Plug settings (':PlugInstall' to install)
 call plug#begin('~/.vim/plugged')
 
