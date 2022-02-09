@@ -106,15 +106,17 @@ call plug#begin('~/.vim/plugged')
 
 "Syntastic, error highlighting plugin
 "https://github.com/vim-syntastic/syntastic#installation
-
+"display
 Plug 'preservim/nerdtree'
-Plug 'frazrepo/vim-rainbow' "color paired brackets
-Plug 'preservim/nerdcommenter' "quick commenter ('\cc' to comment out,'\cu' to uncomment,'\cA' to add appending comment)
-Plug 'itchyny/lightline.vim' "lightline (status bar) 
-Plug 'jiangmiao/auto-pairs' "auto add, delete bracket pairs
-Plug 'tpope/vim-surround' "vim surround
 Plug 'yegappan/taglist' "taglist
 Plug 'google/vim-searchindex' "show search counts greater than 99
+Plug 'itchyny/lightline.vim' "lightline (status bar) 
+"editing
+Plug 'ervanew/supertab' "use Tab for all insert completion
+Plug 'frazrepo/vim-rainbow' "color paired brackets
+Plug 'preservim/nerdcommenter' "quick commenter ('\cc' to comment out,'\cu' to uncomment,'\cA' to add appending comment)
+Plug 'jiangmiao/auto-pairs' "auto add, delete bracket pairs
+Plug 'tpope/vim-surround' "vim surround
 "colorschemes
 Plug 'flazz/vim-colorschemes'  "All colorschemes
 Plug 'dracula/vim',{'as':'dracula'}
