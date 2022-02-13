@@ -37,7 +37,7 @@ set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
 set title "set the window's title, reflecting the file currently being edited
 
-au VimEnter *  NERDTree  "toggle NERDTree by default
+"au VimEnter *  NERDTree  "toggle NERDTree by default
 
 
 "Code Folding Options
