@@ -77,7 +77,7 @@ else
 endif
 
 
-"if has("autocmd")
+"if has("autocmd")  "Windows Terminal
 "  au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
 "  au InsertEnter,InsertChange *
 "    \ if v:insertmode == 'i' | 
