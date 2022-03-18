@@ -61,6 +61,7 @@ imap jj <Esc>
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
+nmap <F7> :NERDTreeToggle<CR>  "F7 for NerdTree
 
 "set cursor to straight line in insert mode
 
